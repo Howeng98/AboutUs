@@ -1,3 +1,17 @@
+function viewingArea(element) {
+    var objHeight = $(element).offset().top - 300;　 //元素到顶部的高度
+    let winPos = $(window).scrollTop(); //距离顶部滚动 
+    let val = objHeight - winPos;
+    if (val < windowHeight && val > 0) {
+        //可视区域         
+        return true;
+    } else {
+        //不可视区域 
+        return false;
+    }
+}
+
+
 $('.chien').click(function(){
     $('html,body').animate({scrollTop:$('#member_06').offset().top - 300},3000);
     $('#member_01').addClass('member_01_fading delay_04s');
@@ -17,7 +31,7 @@ $('.chien').click(function(){
     $('#desc_05').addClass('member_05_desc_fading delay_08s');
     $('#member_06').addClass('member_06_fading');
     $('#id_06').addClass('member_06_id_fading');
-    $('#desc_06').addClass('member_06_desc_fading');
+    $('#desc_06').addClass('member_06_desc_fading'); 
 });
 
 $('.howeng').click(function(){
