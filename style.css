@@ -40,8 +40,14 @@ body{
     position: relative
 }
 
-html{
+/* html{
     zoom: 0.8;
+} */
+
+@media screen and (max-width: 1600px){
+    html{
+        zoom: 0.801;
+    }
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
