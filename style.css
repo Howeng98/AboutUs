@@ -414,10 +414,11 @@ header{
 }
 
 #desc_01{
+    position: absolute;
     font-size: 32px;
     color: #FFFFFF;
     position: absolute;
-    width: 500px;
+    width: 1000px;
     margin-left: 1240px;
     margin-top: 650px;
     z-index: 8;
@@ -491,13 +492,14 @@ header{
 }
 
 #desc_03{
+    position: absolute;
     font-size: 32px;
     color: #FFFFFF;
     position: absolute;
     margin-left: 1220px;
     margin-top: 2655px;
     z-index: 8;
-    width: 500px;
+    width: 1000px;
     text-align: left;
     font-weight: bold;
     letter-spacing: 2;
@@ -571,13 +573,14 @@ header{
 }
 
 #desc_05{
+    position: absolute;
     font-size: 32px;
     color: #73956B;
     position: absolute;
     margin-left: 1210px;
     margin-top: 4680px;
     z-index: 8;
-    width: 500px;
+    width: 1000px;
     text-align: left;
     font-weight: bold;
     letter-spacing: 2;
