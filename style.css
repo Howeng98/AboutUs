@@ -118,7 +118,7 @@ header{
     position: absolute;
     font-size: 80px;
     text-shadow: 0px 0.5px 1px #00000029;    
-    margin-top: -500px;
+    margin-top: -600px;
     margin-left: 1200px;    
 }
 
@@ -127,7 +127,7 @@ header{
     width: 600px;
     font-size: 30px;
     text-shadow: 0px 0.5px 1px #00000029;    
-    margin-top: -260px;
+    margin-top: -360px;
     margin-left: 1200px;    
 }
 
@@ -647,7 +647,7 @@ header{
     position: fixed;
     color: #90AF89;
     font-size: 30px;
-    bottom: 6%;
+    bottom: 7%;
     left: 48%;
     z-index: 10;
     cursor: pointer;
